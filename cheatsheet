@@ -1,0 +1,77 @@
+# Python Cheatsheet 🐍
+
+## 🔤 Basics
+- **print("Hello World")** → Display output
+- **# comment** → Single-line comment
+- **"""docstring"""** → Multi-line comment / documentation
+- **type(x)** → Check the type of a variable
+- **id(x)** → Get memory address of an object
+
+---
+
+## 📦 Data Types
+- **int, float, str, bool** → Basic types
+- **list = [1,2,3]** → Ordered, mutable collection
+- **tuple = (1,2,3)** → Ordered, immutable collection
+- **set = {1,2,3}** → Unordered, unique values
+- **dict = {"key":"value"}** → Key-value pairs
+
+---
+
+## 🔁 Control Flow
+- **if, elif, else** → Conditional statements
+- **for i in range(5):** → Loop 0–4
+- **while condition:** → Loop until condition is false
+- **break** → Exit loop
+- **continue** → Skip to next iteration
+
+---
+
+## 🛠️ Functions
+- **def func(x): return x+1** → Define a function
+- **lambda x: x+1** → Anonymous function
+- ***args** → Variable number of positional arguments
+- **kwargs** → Variable number of keyword arguments
+
+---
+
+## 📂 Modules & Packages
+- **import math** → Import a module
+- **from math import sqrt** → Import specific function
+- **dir(module)** → List attributes of a module
+- **help(module)** → Documentation
+
+---
+
+## 🧵 OOP (Object-Oriented Programming)
+- **class MyClass:** → Define a class
+- **__init__** → Constructor method
+- **self** → Reference to instance
+- **obj = MyClass()** → Create object
+- **Inheritance** → `class Child(Parent):`
+
+---
+
+## 📑 File Handling
+- **open("file.txt", "r")** → Read mode
+- **open("file.txt", "w")** → Write mode
+- **with open("file.txt") as f:** → Context manager
+- **f.read(), f.write(), f.readlines()**
+
+---
+
+## ⚙️ Useful Built-ins
+- **len(x)** → Length
+- **sum(list)** → Sum of elements
+- **min(list), max(list)** → Smallest/largest
+- **sorted(list)** → Sort elements
+- **enumerate(list)** → Index + value in loop
+- **zip(list1, list2)** → Pair elements
+
+---
+
+## 🐞 Debugging
+- **print()** → Quick checks
+- **assert condition** → Raise error if false
+- **try/except** → Handle exceptions
+- **raise Exception("Error")** → Throw error
